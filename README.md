@@ -1,2 +1,2 @@
 # design-pattern
-Code displaying  common design pattern examples
+Code examples of common design pattern
