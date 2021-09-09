@@ -27,7 +27,20 @@
             <artifactId>swing-layout</artifactId>
             <version>1.0.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+
 
 
 
