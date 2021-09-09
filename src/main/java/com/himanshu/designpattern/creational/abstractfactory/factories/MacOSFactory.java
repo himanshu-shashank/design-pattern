@@ -9,8 +9,7 @@ import com.himanshu.designpattern.creational.abstractfactory.checkboxes.MacOSChe
  * Each concrete factory extends basic factory and responsible for creating
  * products of a single variety.
  */
-public class
-MacOSFactory implements GUIFactory {
+public class MacOSFactory implements GUIFactory {
 
     public Button createGuiButton() {
         return new MacOSButton();
@@ -20,4 +19,3 @@ MacOSFactory implements GUIFactory {
         return new MacOSCheckbox();
     }
 }
-

@@ -20,7 +20,6 @@ public class Demo {
      * environment options.
      */
     private static void configure() {
-        System.out.println(System.getProperty("os.name"));
         if (System.getProperty("os.name").equals("Windows 10")) {
             dialog = new WindowsDialog();
         } else {
