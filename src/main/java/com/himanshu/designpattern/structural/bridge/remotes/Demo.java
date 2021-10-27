@@ -5,6 +5,7 @@ import com.himanshu.designpattern.structural.bridge.devices.Radio;
 import com.himanshu.designpattern.structural.bridge.devices.Tv;
 
 public class Demo {
+
     public static void main(String[] args) {
         testDevice(new Tv());
         testDevice(new Radio());
