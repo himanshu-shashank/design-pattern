@@ -1,4 +1,4 @@
-package com.himanshu.simple.designpattern.chainofresponsibility.numbers;
+package com.himanshu.simple.designpattern.behavioural.chainofresponsibility.numbers;
 
 // This object will contain 2 numbers and a
 // calculation to perform in the form of a String

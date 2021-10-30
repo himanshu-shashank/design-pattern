@@ -1,7 +1,7 @@
-package com.himanshu.simple.designpattern.chainofresponsibility;
+package com.himanshu.simple.designpattern.behavioural.chainofresponsibility;
 
-import com.himanshu.simple.designpattern.chainofresponsibility.chain.*;
-import com.himanshu.simple.designpattern.chainofresponsibility.numbers.Numbers;
+import com.himanshu.simple.designpattern.behavioural.chainofresponsibility.chain.*;
+import com.himanshu.simple.designpattern.behavioural.chainofresponsibility.numbers.Numbers;
 
 public class Demo {
     public static void main(String[] args){

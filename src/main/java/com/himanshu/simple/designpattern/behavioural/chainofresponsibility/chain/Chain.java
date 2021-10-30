@@ -1,4 +1,4 @@
-package com.himanshu.simple.designpattern.chainofresponsibility.chain;
+package com.himanshu.simple.designpattern.behavioural.chainofresponsibility.chain;
 
 // The chain of responsibility pattern has a
 // group of objects that are expected to between
@@ -6,7 +6,7 @@ package com.himanshu.simple.designpattern.chainofresponsibility.chain;
 // If the first Object can't solve it, it passes
 // the data to the next Object in the chain
 
-import com.himanshu.simple.designpattern.chainofresponsibility.numbers.Numbers;
+import com.himanshu.simple.designpattern.behavioural.chainofresponsibility.numbers.Numbers;
 
 public interface Chain {
 

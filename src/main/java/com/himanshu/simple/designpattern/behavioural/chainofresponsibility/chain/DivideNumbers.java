@@ -1,6 +1,6 @@
-package com.himanshu.simple.designpattern.chainofresponsibility.chain;
+package com.himanshu.simple.designpattern.behavioural.chainofresponsibility.chain;
 
-import com.himanshu.simple.designpattern.chainofresponsibility.numbers.Numbers;
+import com.himanshu.simple.designpattern.behavioural.chainofresponsibility.numbers.Numbers;
 
 public class DivideNumbers implements Chain{
 
