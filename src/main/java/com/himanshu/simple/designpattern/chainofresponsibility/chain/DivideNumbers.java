@@ -7,10 +7,11 @@ public class DivideNumbers implements Chain{
     private  Chain nextInChain;
 
     @Override
-    public void setNextChain(Chain nextChain) {
+    public Chain setNextChain(Chain nextChain) {
 
         nextInChain = nextChain;
 
+        return nextChain;
     }
 
     @Override

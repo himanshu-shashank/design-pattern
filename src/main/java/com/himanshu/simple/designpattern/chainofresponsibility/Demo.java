@@ -13,6 +13,8 @@ public class Demo {
         Chain chainCalc3 = new MultNumbers();
         Chain chainCalc4 = new DivideNumbers();
 
+        Chain chain = new AddNumbers().setNextChain(new SubtractNumbers().setNextChain(new MultNumbers().setNextChain(new DivideNumbers())));
+
         // Here I tell each object where to forward the
         // data if it can't process the request
 
@@ -23,9 +25,9 @@ public class Demo {
         // Define the data in the Numbers Object
         // and send it to the first Object in the chain
 
-        Numbers request = new Numbers(4,2,"add");
+        Numbers request = new Numbers(4,2,"div");
 
-        chainCalc1.calculate(request);
+        chain.calculate(request);
 
     }
 }

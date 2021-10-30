@@ -9,10 +9,11 @@ public class AddNumbers implements Chain{
     // Defines the next Object to receive the
     // data if this one can't use it
 
-    public void setNextChain(Chain nextChain) {
+    public Chain setNextChain(Chain nextChain) {
 
-        nextInChain = nextChain;
+        this.nextInChain = nextChain;
 
+        return nextChain;
     }
 
     // Tries to calculate the data, or passes it
